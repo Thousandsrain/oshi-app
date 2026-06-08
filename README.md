@@ -12,34 +12,12 @@
 - Live 日期、地点、时间、出演推し/团体记录
 - 本地数据备份与恢复
 - 滤镜预设导入、导出和分享
-- App 内隐私政策、用户协议和权限说明
 
 ## 技术栈
 
 - Flutter / Dart
 - Android native Kotlin MethodChannel
 - SQLite via sqflite
-
-## 开发环境
-
-```bash
-flutter pub get
-flutter run
-```
-
-## 构建
-
-Android APK:
-
-```bash
-flutter build apk --release
-```
-
-Android App Bundle:
-
-```bash
-flutter build appbundle --release
-```
 
 ## 隐私政策
 
@@ -53,7 +31,3 @@ docs/privacy-policy.html
 ## 开源许可
 
 本项目使用 MIT License。详见 [LICENSE](LICENSE)。
-
-## 安全提醒
-
-请不要提交签名密钥、`key.properties`、`.jks` 文件、开发者后台资料或任何个人身份材料。
